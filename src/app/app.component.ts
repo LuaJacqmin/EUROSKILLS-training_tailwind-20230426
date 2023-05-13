@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  public options: Array<string> = [
+    "test", "option 2", "optino 3"
+  ]  
 }
